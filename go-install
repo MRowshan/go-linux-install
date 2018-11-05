@@ -1,0 +1,14 @@
+sudo yum install wget -y
+
+//Download the files
+wget https://dl.google.com/go/go1.10.3.linux-amd64.tar.gz
+
+//extract the files in the tar to /usr/local
+sudo tar -C /usr/local -xzf go1.10.3.linux-amd64.tar.gz
+
+//Add the path
+export PATH=$PATH:/usr/local/go/bin
+
+//Check the go version to confirm install
+go version
+//Output: go version go1.10.3 linux/amd64
