@@ -11,5 +11,6 @@ echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQIe9B8FtsQe0uN/obt6HSxrOkLMqGujep29
 
 cd
 git clone https://github.com/MRowshan/vim && ./vim/install
-git clone https://github.com/MRowshan/go-http-server
+#git clone https://github.com/MRowshan/go-http-server
+gsutil cp -r gs://centos7-startup ~
 export PATH=$PATH:/usr/local/go/bin
