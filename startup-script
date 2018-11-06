@@ -17,5 +17,5 @@ git clone https://github.com/MRowshan/vim && ./vim/install
 gsutil cp -r gs://centos7-startup ~
 export PATH=$PATH:/usr/local/go/bin
 
-cd app-executable
+cd /home/go-user/centos7-startup/app-executable
 chmod +x app
