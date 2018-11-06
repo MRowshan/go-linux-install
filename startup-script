@@ -1,8 +1,8 @@
 #!/bin/bash
 sudo yum install git -y
-git clone https://github.com/MRowshan/go-linux-install && ./go-linux-install/go-install
-cd
-export PATH=$PATH:/usr/local/go/bin
+#git clone https://github.com/MRowshan/go-linux-install && ./go-linux-install/go-install
+#cd
+#export PATH=$PATH:/usr/local/go/bin
 
 sudo useradd go-user
 sudo su - go-user
